@@ -1,0 +1,258 @@
+/*from 1024 to 1200px*/
+@media only screen and (max-width: 1200px){
+	.hero-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+	.row {
+		padding: 0 2%;
+	}
+}
+
+/*from 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+	body {
+		font-size: 18px;
+	}
+	
+	section {
+		padding: 60px 0;
+	}
+	.long-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.steps-box{
+		margin-top: 10px;
+	}
+	.steps {
+		margin-bottom: 40px;
+	}
+	.step:last-of-type {
+		margin-bottom: 60px;
+	}
+	.appscreen{
+		width: 50%;
+	}
+
+	h3{
+		font-size: 110%;
+	}
+	.btn-app img {
+		margin-right: 8px;
+	}
+	.city-feature{
+		font-size: 90%;
+	}
+	.icon-small{
+		width: 17px;
+		margin-right: 5px;
+	}
+
+	cite img {
+		height: 70px;
+	}
+
+	.plan-box {
+		width: 100%;
+		margin: 0;
+	}
+	.plan-price-month {
+		font-size: 250%;
+	}
+
+	.contact-form{
+		width: 90%;
+	}
+
+	.footer-nav {
+		margin-bottom: 10px;
+	}
+
+}
+
+
+/*from 481px to 767px*/
+@media only screen and (max-width: 767px){
+	body {
+		font-size: 16px;
+	}
+	.hero-text-box,.row{
+		padding: 0 4%;
+	}
+	section {
+		padding: 30px 0;
+	}
+	.col {
+		width: 100%;
+		margin: 0 0 4% 0;
+	}
+
+	.main-nav {
+		float: left;
+		margin-top: 20px;
+		margin-left: 45px;
+		display: none;
+	}
+	.main-nav li{
+		display: block;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+
+	.mobile-nav-icon {
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	.sticky .main-nav {
+		margin-top: 10px;
+	}
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {
+		padding: 10px 0;
+	}
+	.sticky .mobile-nav-icon {
+		margin-top: 20px;
+	}
+	.sticky .mobile-nav-icon i {
+		color: #555;
+	}
+
+	h1{
+		font-size: 180%;
+	}
+	h2{
+		font-size: 150%;
+	}
+	.long-copy{
+		width: 100%;margin-left: 0;
+	}
+
+	.meals-photo img {
+		-webkit-transform: scale(1.07);
+		transform: scale(1.07);
+	}
+
+	.steps {
+		margin-bottom: 30px;
+	}
+	.step:last-of-type {
+		margin-bottom: 25px;
+	}
+	.steps div {
+		width: 40px;
+		height: 40px;
+		padding: 4px;
+		margin-right: 10px;
+		font-size: 120%;
+	}
+	.steps-box:first-child {
+		text-align: center;
+	}
+	.appscreen{
+		width: 35%;
+	}
+
+	cite img {
+		height: 50px;
+	}
+	cite{
+		margin-top: 10px;
+	}
+
+	.mf-container {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+	.map {
+		width: 100%;
+		height: 400px;
+		z-index: 0;
+		position: relative;
+	}
+
+	.form-box {
+		position: relative;
+		height: auto;
+		width: 100%;
+		padding-top: 30px;
+		padding-left: 5px;
+		padding-right: 10px; 
+		padding-bottom: 20px;
+	}
+
+	input[type=submit] {
+		width: 100%;
+	}
+
+/*from 0 to 480px*/
+@media only screen and (max-width: 480px){
+	h1{
+		font-size: 140%;
+	}
+	h2{
+		font-size: 115%;
+	}
+	h2:after {
+		margin-top: 20px;
+	}
+	.btn{
+		padding: 8px 16px;
+	}
+
+	section {
+		padding: 25px 0;
+	}
+
+	.meals-photo img {
+		-webkit-transform: scale(1.095);
+		transform: scale(1.095);
+	}
+	
+	.steps-box:nth-of-type(1) {
+		margin-top: 18px;
+	} 
+	.steps-box:nth-of-type(2) {
+		margin-top: 30px;
+	} 
+	.steps:last-of-type {
+		margin-bottom: 60px;
+	}
+	.steps div {
+		line-height: 23px;
+	}
+	.btn-app img {
+		width: 120px;
+		height: 40px;
+		margin-right: 10px;
+	}
+	
+	cite{
+		margin-top: 7px;
+	}
+	.contact-form{
+		width: 100%;
+	}
+
+	input[type=submit] {
+		width: 100%;
+	}
+	
+	.social-links {
+		float: none;
+		text-align: center;
+	}
+	footer p {
+		margin-top: 10px;
+	}
+}
