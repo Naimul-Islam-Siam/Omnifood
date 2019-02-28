@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="vendors/css/loader.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
@@ -16,7 +17,12 @@
 		<link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 	</head>
 
-	<body>
+	<body onload="preLoad()">
+		<section id="loader">
+		  <div class="donut"></div>
+		  <h3> Omnifood &nbsp;is &nbsp;Loading...</h3>
+		</section>
+
 		<header>
 			<nav>
 				<div class="row">
@@ -420,6 +426,13 @@
 			</div>
 		</footer>
 
+	<script type="text/javascript">
+		var loader = document.getElementById("loader");
+
+		setTimeout(function preLoad(){
+				loader.style.display = "none";
+			},4000); 
+	</script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="vendors/js/jquery-3.3.1.min.js"></script>
